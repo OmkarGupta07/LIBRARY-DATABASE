@@ -1,0 +1,10 @@
+31/10/24
+Faced error while fetching data of authors from backend hook was returning data properly but i made mistake while destructring so because of that i wasnt able to get data of authors in component 
+as initial the author data is empty array or undefined and i was passing this as a props in my drop down component  so i got error over there resolve this error via conditional rendering
+
+faced issue while updating state variable for file solve it ny removing value attribute from the input tag
+
+faced issue while sending file from react to node/express 
+    -doubted whole time form data but damn it was loyal as dog bitch node betrayed me untill i used multer middleware 
+    -formdata seems to be empty but you can access the value through .get('key') 
+    -took half day 
